@@ -1,7 +1,7 @@
 {
-  "name": "mern-udemy",
+  "name": "my-garage",
   "version": "1.0.0",
-  "description": "Udemt Course for MERN stack app",
+  "description": "My-Garage app to keep track of my vehicles",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -25,5 +25,13 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelshirley/My-Garage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuelshirley/My-Garage/issues"
+  },
+  "homepage": "https://github.com/samuelshirley/My-Garage#readme"
 }
