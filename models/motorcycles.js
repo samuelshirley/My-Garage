@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
 const MotorcycleSchema = new mongoose.Schema({
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'user',
+  },
   make: {
     type: String,
     required: true,
